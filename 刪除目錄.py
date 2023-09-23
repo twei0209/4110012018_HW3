@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Sat Sep 23 16:10:56 2023
 
-This is a temporary script file.
+@author: ASUS
 """
 
 import os
+import shutil
 
-os.mkdir('CS')
+os.rmdir('CS')

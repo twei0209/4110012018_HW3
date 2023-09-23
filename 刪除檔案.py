@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Sat Sep 23 16:07:27 2023
 
-This is a temporary script file.
+@author: ASUS
 """
 
 import os
@@ -10,5 +10,5 @@ import os
 cs_directory = 'CS'
 file_path = os.path.join(cs_directory, 'homework.txt')
 
-if os.path.exist(file_path):
+if os.path.exists(file_path):
     os.remove(file_path)
